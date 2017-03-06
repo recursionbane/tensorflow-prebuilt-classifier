@@ -5,7 +5,7 @@ A simple, pre-built classifier that can morph to ANY image search term for categ
 
 ### Required
 * Python3, recommended via [Anaconda3](https://www.continuum.io/downloads)
-* TensorFlow:
+* TensorFlow, install via Anaconda3 or pip:
 ```Javascript
 # If you have a discrete GPU:
 C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.0.0-cp35-cp35m-win_x86_64.whl 
