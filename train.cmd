@@ -5,6 +5,13 @@ del retrained_graph.pb
 rem Download category images
 rmdir /S /Q inputs
 mkdir inputs
+
+rem Download required NPM modules
+npm install --save images-scraper
+npm install --save image-downloader
+npm install --save read-chunk
+npm install --save is-jpg
+
 xcopy node_modules inputs\node_modules\ /s/h/e/k/f/c/q
 copy scrape2.js inputs\scrape2.js
 
