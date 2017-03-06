@@ -1,5 +1,5 @@
 # tensorflow-prebuilt-classifier
-A simple, pre-built classifier that can morph to ANY image search term for categorization.
+A simple, pre-built classifier that can be programmed using image search terms.
 
 This is designed for beginners, or for anyone wishing to harness simple neural networks to perform image classification on arbitrary categories.
 
