@@ -1,5 +1,5 @@
 # tensorflow-prebuilt-classifier
-A simple, pre-built classifier that can be programmed using image search terms.
+A simple, pre-built classifier that can be programmed using image search terms, designed to run on Windows PCs.
 
 This is designed for beginners, or for anyone wishing to harness simple neural networks to perform image classification on arbitrary categories.
 
@@ -8,6 +8,7 @@ If there is sufficient interest, a one-click Dockerized version of this project 
 ## Prerequisites
 
 ### Required
+* [NodeJS](https://nodejs.org/en/download/)
 * Python3, recommended via [Anaconda3](https://www.continuum.io/downloads)
 * TensorFlow, install via Anaconda3 or pip:
 ```Javascript
@@ -16,7 +17,6 @@ C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tens
 # If you are unsure, or you do not have a discrete GPU, use the CPU-only version (will take longer to run):
 C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl 
 ```
-* [NodeJS](https://nodejs.org/en/download/)
 
 ### Optional
 * Windows environment to use train.cmd
