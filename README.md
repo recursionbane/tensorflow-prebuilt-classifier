@@ -21,6 +21,7 @@ C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tens
 ### Optional
 * Windows environment to use train.cmd
 * Discrete GPU for faster training
+*  Note that you must install CuDNN and CUDA as described [here](https://github.com/tensorflow/tensorflow/issues/11645)
 
 ## Usage
 
