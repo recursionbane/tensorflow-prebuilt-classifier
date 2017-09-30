@@ -13,9 +13,9 @@ If there is sufficient interest, a one-click Dockerized version of this project 
 * TensorFlow, install via Anaconda3 or pip:
 ```Javascript
 # If you have a discrete GPU:
-C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.0.0-cp35-cp35m-win_x86_64.whl 
-# If you are unsure, or you do not have a discrete GPU, use the CPU-only version (will take longer to run):
-C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl 
+C:> pip install --ignore-installed --upgrade tensorflow-gpu
+# If you are unsure, or you do not have a discrete GPU, use the CPU-only version (will take about 10x longer to run):
+C:> pip install --ignore-installed --upgrade tensorflow
 ```
 
 ### Optional
