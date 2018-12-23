@@ -44,3 +44,10 @@ cars (score = 0.69207)
 trains (score = 0.16574)
 bikes (score = 0.14219)
 ```
+
+## Possible use-cases
+
+Here are some successful use-cases for this project, and the relevant categories specified in train.cmd:
+* Squirrel/no squirrel ("squirrel in garden", "garden")
+* Traffic/no traffic ("heavy traffic", "empty highway")
+* Type of package carrier ("usps truck", "ups truck", "fedex truck")
