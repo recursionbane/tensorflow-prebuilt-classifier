@@ -3,8 +3,6 @@ A simple, pre-built classifier that can be programmed using image search terms, 
 
 This is designed for beginners, or for anyone wishing to harness simple neural networks to perform image classification on arbitrary categories.
 
-If there is sufficient interest, a one-click Dockerized version of this project will be considered.
-
 ## Prerequisites
 
 ### Required
