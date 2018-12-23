@@ -46,6 +46,6 @@ bikes (score = 0.14219)
 ## Possible use-cases
 
 Here are some successful use-cases for this project, and the relevant categories specified in train.cmd:
-* Squirrel/no squirrel ("squirrel in garden", "garden")
-* Traffic/no traffic ("heavy traffic", "empty highway")
-* Type of package carrier ("usps truck", "ups truck", "fedex truck")
+* Squirrel/no squirrel ("squirrel in garden", "garden"); prediction uses webcam image stream
+* Traffic/no traffic ("heavy traffic", "empty highway"); prediction uses public highway cam image stream
+* Type of package carrier ("usps truck", "ups truck", "fedex truck"); prediction uses webcam image stream
